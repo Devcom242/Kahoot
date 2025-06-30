@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Passero One", sans-serif;
+    min-height: 100%;
+}
+
+.logo, .svg , a{
+    font-family: "Irish Grover", system-ui;
+}
+
+svg {
+    display: inline;
+}
