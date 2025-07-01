@@ -15,7 +15,7 @@ export default function RootLayout ({children}) {
         </head>
         <body>
           <HeaderWapper/>
-            <main className="w-full">
+            <main className="min-w-full min-h-full">
               {children}
             </main>
           <FooterWrapper/>

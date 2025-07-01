@@ -9,10 +9,10 @@
 
 body {
     font-family: "Passero One", sans-serif;
-    min-height: 100%;
+    height: 100%;
 }
 
-.logo, .svg , a{
+.font, .svg , a{
     font-family: "Irish Grover", system-ui;
 }
 
