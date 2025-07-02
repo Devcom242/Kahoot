@@ -1,21 +1,16 @@
 import HeaderWapper from "@/components/headers/headerWapper";
-import "./globals.css";
 import FooterWrapper from "@/components/footer/footerWrapper";
+import { passero } from "@/lib/font";
+import "./globals.css";
 
 export default function RootLayout ({children}) {
 
   return(
     <>
       <html lang="fr">
-        <head>
-          <link rel="preconnect" href="https://fonts.googleapis.com"/>
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-          <link href="https://fonts.googleapis.com/css2?family=Passero+One&display=swap" rel="stylesheet"></link>
-          <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Passero+One&display=swap" rel="stylesheet"></link>
-        </head>
-        <body>
+        <body className={`${passero.className}`}>
           <HeaderWapper/>
-            <main className="min-w-full min-h-full">
+            <main className="w-[100%] h-[100%] flex-1">
               {children}
             </main>
           <FooterWrapper/>

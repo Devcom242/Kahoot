@@ -1,4 +1,4 @@
-import GoButtun from "@/components/button/goButtun";
+import Explorer from "@/components/button/explorer";
 import Image from "next/image";
 
 export default function Home () {
@@ -9,7 +9,7 @@ export default function Home () {
           <p className="text-center text-[50px]">Des centaines de Quiz</p>
           <p className="text-[#7D0763] text-center text-[50px]">Prêt à jouer</p>
           <p className="text-center text-[25px]">Découvrez une bibliothèque riche de plus de cent quiz prêts à jouer, créés par notre communauté. Des casse-têtes aux quiz de culture générale, en passant par des défis variés, il y en a pour tous les goûts !</p>
-          <GoButtun/>
+          <Explorer/>
         </div>
         {/* <div className="absolute h-[200px] w-[200px] right-[-75px]">
           <Image
@@ -75,7 +75,7 @@ export default function Home () {
             className="object-cover"
           />
         </div>
-        <div className="absolute h-[250px] w-[250px] left-[550px] top-[-100px]">
+        <div className="absolute h-[250px] w-[250px] left-[550px] top-[-200px]">
           <Image
             src='/images/acceuil/Thorus 1.png'
             alt="logo9"
