@@ -1,7 +1,8 @@
+import "./globals.css";
 import HeaderWapper from "@/components/headers/headerWapper";
 import FooterWrapper from "@/components/footer/footerWrapper";
 import { passero } from "@/lib/font";
-import "./globals.css";
+
 
 export default function RootLayout ({children}) {
 
