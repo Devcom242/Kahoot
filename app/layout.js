@@ -9,12 +9,14 @@ export default function RootLayout ({children}) {
   return(
     <>
       <html lang="fr">
-        <body className={`${passero.className}`}>
-          <HeaderWapper/>
-            <main className="w-[100%] h-[100%] flex-1">
-              {children}
-            </main>
-          <FooterWrapper/>
+        <body>
+          <div className={`${passero.className} w-full min-h-[100vh] flex flex-col overflow-hidden`}>
+            <HeaderWapper/>
+              <main>
+                {children}
+              </main>
+            <FooterWrapper/>
+          </div>
         </body>
       </html>
     </>
